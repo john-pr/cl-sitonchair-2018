@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('../fonts/raleway-regular-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url('../fonts/raleway-bold-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ralewayitalic';
+    src: url('../fonts/raleway-italic-webfont.woff2') format('woff2'),
+    url('../fonts/raleway-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'ralewayregular', 'Tahoma', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    background: #000;
+}
+
+header p {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+}
+
+header ul li {
+    color: #FFF;
+    display: inline-block;
+}
+
+.main-width {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+
