@@ -8,31 +8,111 @@
 <body>
 <header>
     <div class="main-width">
-        <h1>Sit<span>on</span>a chair</h1>
     <nav>
+        <h1>Sit<span class="spancolor">on</span>a chair</h1>
         <ul>
-            <li>O firmie</li>
-            <li>Galeria</li>
-            <li>Kontakt</li>
+            <li><a href="#">O firmie</a></li>
+            <li><a href="#">Galeria</a></li>
+            <li><a href="#">Kontakt</a></li>
         </ul>
     </nav>
     </div>
 </header>
+<section id="slider">
+    <div class="main-width">
+        <ul class="slides">
+            <li><div id="chair"></div>
+                <div id="slidetext">
+                    <h2>Sit<span class="spancolor">on</span>our<span class="spancolor">chair</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda debitis doloribus eaque hic, laboriosam molestias necessitatibus odit officiis quisquam tempora? Culpa, deserunt ducimus eligendi et explicabo iusto pariatur reiciendis vero.</p>
+                    <a class="button" href="#">Zobacz więcej</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="offer">
+    <div class="main-width">
+        <div class="offer_boxes">
+            <div class="offer__img1"></div>
+            <div class="offer__img2"></div>
+            <div class="offer__img3"><h2>Finds all inputs</h2><p>Finds all inputs that are not checked  and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked. Notice there is no change when clicking the checkboxes since no click events have been </p></div>
+        </div>
+    </div>
+</section>
+<section id="prices">
+    <div class="main-width">
+        <div class="prices__boxes">
+            <h2 class="smalltitle">Cennik</h2>
+                <ul>
+                    <li>
+                        <div class="box">
+                            <h2>Basic plan</h2>
+                            <div class="box__circle">
+                                <p class="pln">85<sup>99</sup></p>
+                                <p>pln/msc</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                            </ul>
+                            <a href="#">Dołącz</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box box__important">
+                            <h2>Standard plan</h2>
+                            <div class="box__circle">
+                                <p class="pln">95<sup>99</sup></p>
+                                <p>pln/msc</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                                <li>Gwarancja 5 lat</li>
+                            </ul>
+                            <a href="#">Dołącz</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="box">
+                            <h2>Advance plan</h2>
+                            <div class="box__circle">
+                                <p class="pln">211<sup>00</sup></p>
+                                <p>pln/msc</p>
+                            </div>
+                            <ul>
+                                <li>Zakup towaru + dowóz</li>
+                                <li>Serwis</li>
+                                <li>Gwarancja 6 lat</li>
+                                <li>Porady projektanta</li>
+                            </ul>
+                            <a href="#">Dołącz</a>
+                        </div>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</section>
 <section>
     <div class="main-width">
-    </div>
+        <form class="contact">
+            <fieldset class="contact__inputs">
+                <div>
+                    <input type="text" placeholder="Imię" id="name">
+                </div>
+                <div>
+                    <input type="email" placeholder="email" id="email">
+                </div>
+                <div>
+                    <textarea rows="5" id="message" name="message" placeholder="Wiadomosc"></textarea>
+                </div>
 
-</section>
-<section>
-    <div class="main-width">
-    </div>
-</section>
-<section>
-    <div class="main-width">
-    </div>
-</section>
-<section>
-    <div class="main-width">
+            </fieldset>
+            <fieldset class="contact__send">
+
+            </fieldset>
+        </form>
     </div>
 </section>
 <footer>
