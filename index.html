@@ -9,7 +9,7 @@
 <header>
     <div class="main-width">
     <nav>
-        <h1>Sit<span class="spancolor">on</span>a chair</h1>
+        <h1>Sit<span class="spancolor">on</span>chair</h1>
         <ul>
             <li><a href="#">O firmie</a></li>
             <li><a href="#">Galeria</a></li>
@@ -21,12 +21,15 @@
 <section id="slider">
     <div class="main-width">
         <ul class="slides">
-            <li><div id="chair"></div>
+            <li>
+                <div class="slider-button left"><a href="#">&#60;</a></div>
+                <div id="chair"></div>
                 <div id="slidetext">
                     <h2>Sit<span class="spancolor">on</span>our<span class="spancolor">chair</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda debitis doloribus eaque hic, laboriosam molestias necessitatibus odit officiis quisquam tempora? Culpa, deserunt ducimus eligendi et explicabo iusto pariatur reiciendis vero.</p>
                     <a class="button" href="#">Zobacz więcej</a>
                 </div>
+                <div class="slider-button right"><a href="#">&#62;</a></div>
             </li>
         </ul>
     </div>
@@ -47,6 +50,7 @@
                 <ul>
                     <li>
                         <div class="box">
+                            <div class="circle__top"></div>
                             <h2>Basic plan</h2>
                             <div class="box__circle">
                                 <p class="pln">85<sup>99</sup></p>
@@ -60,7 +64,8 @@
                         </div>
                     </li>
                     <li>
-                        <div class="box box__important">
+                        <div class="box" id="important">
+                            <div class="circle__top"></div>
                             <h2>Standard plan</h2>
                             <div class="box__circle">
                                 <p class="pln">95<sup>99</sup></p>
@@ -76,6 +81,7 @@
                     </li>
                     <li>
                         <div class="box">
+                            <div class="circle__top"></div>
                             <h2>Advance plan</h2>
                             <div class="box__circle">
                                 <p class="pln">211<sup>00</sup></p>
@@ -94,29 +100,34 @@
         </div>
     </div>
 </section>
-<section>
+<section class="contact">
     <div class="main-width">
-        <form class="contact">
-            <fieldset class="contact__inputs">
-                <div>
-                    <input type="text" placeholder="Imię" id="name">
-                </div>
-                <div>
-                    <input type="email" placeholder="email" id="email">
-                </div>
-                <div>
-                    <textarea rows="5" id="message" name="message" placeholder="Wiadomosc"></textarea>
-                </div>
-
-            </fieldset>
-            <fieldset class="contact__send">
-
-            </fieldset>
+        <h2 class="contactTitle">Kontakt</h2>
+        <form class="contactLeft">
+                    <input type="text" placeholder="Imię" id="name"><br><br>
+                    <input type="email" placeholder="email" id="email"><br><br>
+                    <textarea rows="5" id="message" name="message" placeholder="Wiadomość"></textarea><br><br>
         </form>
+
+        <div class="contactRight">
+            <img src="images/red_chair.png">
+            <input type="checkbox" name="agreement" id="agreement" value="">
+            <label for="agreement">Zgadzam sie na przetwarzanie danych osobowych</label>
+            <div class="contactButton"><a href="#">Wyślij</a></div>
+        </div>
+
     </div>
 </section>
 <footer>
     <div class="main-width">
+        <p class="copyright">Copyright 2018 | All Rights Reserved - Sit On Chair</p>
+        <a href="#">Sit<span>on</span>chair</a>
+        <ul class="socialMedia">
+            <li><a href="http://www.flickr.com" target ="_blank" title="flickr"><img src="images/flickr.png"></a></li>
+            <li><a href="http://www.vimeo.com" target="_blank" title="vimeo"><img src="images/vimeo.png"></a></li>
+            <li><a href="http://www.pinterest.com" target="_blank" title="pinterest"><img src="images/pinterest.png"></a></li>
+            <li><a href="http://www.twitter.com" target="_blank" title="twitter"><img src="images/twitter.png"></a></li>
+        </ul>
     </div>
 </footer>
 </body>
